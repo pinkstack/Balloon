@@ -19,7 +19,6 @@
 		32BE49212774A0D100F60371 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32BE49202774A0D100F60371 /* README.md */; };
 		32BE49232774A16900F60371 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE49222774A16900F60371 /* Event.swift */; };
 		32D6D13B2775126F004CB2E1 /* BusesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D13A2775126F004CB2E1 /* BusesView.swift */; };
-		32D6D13D2775401A004CB2E1 /* BusesView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D13C2775401A004CB2E1 /* BusesView_ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		32BE49202774A0D100F60371 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32BE49222774A16900F60371 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		32D6D13A2775126F004CB2E1 /* BusesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusesView.swift; sourceTree = "<group>"; };
-		32D6D13C2775401A004CB2E1 /* BusesView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusesView_ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				32BE491E27749D5300F60371 /* sample.json */,
 				32BE49222774A16900F60371 /* Event.swift */,
 				32D6D13A2775126F004CB2E1 /* BusesView.swift */,
-				32D6D13C2775401A004CB2E1 /* BusesView_ViewModel.swift */,
 			);
 			path = Balloon;
 			sourceTree = "<group>";
@@ -283,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D6D13B2775126F004CB2E1 /* BusesView.swift in Sources */,
-				32D6D13D2775401A004CB2E1 /* BusesView_ViewModel.swift in Sources */,
 				32BE49232774A16900F60371 /* Event.swift in Sources */,
 				325665062773E8FB006625E2 /* TocenLive.swift in Sources */,
 				325664D92773E420006625E2 /* BalloonApp.swift in Sources */,
