@@ -1,0 +1,32 @@
+
+{
+  "kind": "Updated",
+  "data": {
+    "busInfo": {
+      "bus_id": "b993ceef-e8a5-4df5-be14-7610a404e98e",
+      "bus_name": "LJ LPP-467",
+      "bus_group": "14",
+      "lat": 46.051558,
+      "lng": 14.498558,
+      "rotation": 196.3,
+      "velocity": 14.79,
+      "odometer": 315126500,
+      "trip_id": "43350b06-52c4-4ef0-b76c-814d5c235294",
+      "last_stop_id": "703a4104-e341-46da-8dfd-a783d9254cfc"
+    },
+    "previous": {
+      "bus_id": "b993ceef-e8a5-4df5-be14-7610a404e98e",
+      "bus_name": "LJ LPP-467",
+      "bus_group": "14",
+      "lat": 46.051766,
+      "lng": 14.49873,
+      "rotation": 288.69,
+      "velocity": 1.39,
+      "odometer": 315126480,
+      "trip_id": "43350b06-52c4-4ef0-b76c-814d5c235294",
+      "last_stop_id": "703a4104-e341-46da-8dfd-a783d9254cfc"
+    }
+  },
+  "id": "b91cf309-8575-473c-b895-c31464114227",
+  "created_at": "2021-12-23T12:03:47.584052193"
+}
