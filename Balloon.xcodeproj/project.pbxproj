@@ -17,6 +17,8 @@
 		325665042773E860006625E2 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 325665032773E860006625E2 /* Starscream */; };
 		325665062773E8FB006625E2 /* TocenLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325665052773E8FB006625E2 /* TocenLive.swift */; };
 		32BE491F27749D5300F60371 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BE491E27749D5300F60371 /* sample.json */; };
+		32BE49212774A0D100F60371 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32BE49202774A0D100F60371 /* README.md */; };
+		32BE49232774A16900F60371 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE49222774A16900F60371 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		325664F52773E423006625E2 /* BalloonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		325665052773E8FB006625E2 /* TocenLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TocenLive.swift; sourceTree = "<group>"; };
 		32BE491E27749D5300F60371 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		32BE49202774A0D100F60371 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32BE49222774A16900F60371 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		325664CC2773E420006625E2 = {
 			isa = PBXGroup;
 			children = (
+				32BE49202774A0D100F60371 /* README.md */,
 				325664D72773E420006625E2 /* Balloon */,
 				325664E82773E423006625E2 /* BalloonTests */,
 				325664F22773E423006625E2 /* BalloonUITests */,
@@ -106,6 +111,7 @@
 				325664DE2773E422006625E2 /* Preview Content */,
 				325665052773E8FB006625E2 /* TocenLive.swift */,
 				32BE491E27749D5300F60371 /* sample.json */,
+				32BE49222774A16900F60371 /* Event.swift */,
 			);
 			path = Balloon;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			files = (
 				325664E02773E422006625E2 /* Preview Assets.xcassets in Resources */,
 				325664DD2773E422006625E2 /* Assets.xcassets in Resources */,
+				32BE49212774A0D100F60371 /* README.md in Resources */,
 				32BE491F27749D5300F60371 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BE49232774A16900F60371 /* Event.swift in Sources */,
 				325665062773E8FB006625E2 /* TocenLive.swift in Sources */,
 				325664DB2773E420006625E2 /* ContentView.swift in Sources */,
 				325664D92773E420006625E2 /* BalloonApp.swift in Sources */,
