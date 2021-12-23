@@ -6,11 +6,14 @@
 //
 import Foundation
 import Starscream
+import Combine
+
+let TOCEN_LIVE_CHANGES_ENDPOINT = "ws://tocen-live.pinkstack.com:8077/ws/changes"
 
 class TocenLive: ObservableObject, WebSocketDelegate {
     @Published private(set) var isConnected = false
-    @Published private(set) var events: [Event] = []
-    
+    private(set) var currentEvent = PassthroughSubject<Event, Never>()
+
     private var socket: WebSocket!
     
     func didReceive(event: WebSocketEvent, client: WebSocket) {
@@ -41,8 +44,7 @@ class TocenLive: ObservableObject, WebSocketDelegate {
     }
     
     private func receivedText(text: String) {
-        let event = Event.fromText(text: text)
-        self.events.append(event)
+        self.currentEvent.send(Event.fromText(text: text))
     }
     
     private func receivedError(error: Error?) {
@@ -51,12 +53,11 @@ class TocenLive: ObservableObject, WebSocketDelegate {
     
     func connect() {
         guard isConnected == false else {
-            print("Already connected")
+            print("Already connected.")
             return
         }
         
-        let tocenLiveEndpoint = "http://tocen-live.pinkstack.com:8077/ws/changes"
-        socket = WebSocket(request: URLRequest(url: URL(string: tocenLiveEndpoint)!, timeoutInterval: 3))
+        socket = WebSocket(request: URLRequest(url: URL(string: TOCEN_LIVE_CHANGES_ENDPOINT)!, timeoutInterval: 3))
         socket.delegate = self
         socket.connect()
     }

@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct BalloonApp: App {
-    var tocenLive = TocenLive()
+    // var tocenLive = TocenLive()
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(tocenLive)
+            // ContentView().environmentObject(tocenLive)
+            // BusesView(viewModel: BusesView.ViewModel())
+            BusesView()
         }
     }
 }

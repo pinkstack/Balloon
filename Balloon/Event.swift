@@ -7,19 +7,19 @@
 
 import Foundation
 
+struct BusInfo: Codable {
+    let bus_id: UUID
+    var bus_name: String
+    let bus_group: String
+    let lat: Double
+    let lng: Double
+    let rotation: Double
+    let velocity: Double
+}
+
 struct Event: Codable {
     enum Kind: String, Codable {
         case Added, Updated, Removed
-    }
-    
-    struct BusInfo: Codable {
-        let bus_id: UUID
-        let bus_name: String
-        let bus_group: String
-        let lat: Double
-        let lng: Double
-        let rotation: Double
-        let velocity: Double
     }
     
     struct EventData: Codable {
