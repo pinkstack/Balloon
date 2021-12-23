@@ -2,6 +2,6 @@
 
 The Balloon app helps you get a birds-eye view over the live real-time situation around you and thus helping you navigate the jungle called "the city".
 
-## Author
+## Authors
 
 - [Oto Brglez](https://github.com/otobrglez) / [@otobrglez](https://twitter.com/otobrglez)
